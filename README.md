@@ -51,9 +51,8 @@
 <div style="
 border-left: 3px solid #8a8a8a;
 padding-left: 15px;
-margin-left: 10px;
-">  
-- `Data Cleaning`: check data quality, handle null values, covert data types, detect anomalies and recreate columns and update values.
+margin-left: 10px;">  
+`Data Cleaning`: check data quality, handle null values, covert data types, detect anomalies and recreate columns and update values.
 </div>
 
 
