@@ -42,6 +42,7 @@
 ## 📊Data Structure & Relationships
 1️⃣Table Used
 - x
+  
 2️⃣Data Relationships
 <img width="1352" height="664" alt="image" src="https://github.com/user-attachments/assets/fb70e694-d34d-43a1-a83e-484234f8a6ca" />
 
@@ -50,7 +51,7 @@
 <div style="margin-left:10px">
 
 1. Using [Python](https://github.com/HuynhTanPhatT/UK-National-Railway-Ticket-Analysis/tree/main/Python%3A%20Data%20Cleaning) to:
-> - Data Cleaning</strong>: check data quality, handle null values, convert data types, detect anomalies, recreate columns and update values.
+> - **Data Cleaning**: check data quality, handle null values, convert data types, detect anomalies, recreate columns and update values.
 
 
 2. Using [Power BI]() to:
