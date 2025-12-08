@@ -5,56 +5,69 @@
   - `Python`: Pandas, Numpy, Datetime
   - `Power Bi`: Dax, calculated columns, data visualization, data modeling
 # ReadMe - Table Of Contents (TOCS)
-1. [Background & Objectives]()
+1. [Executive Summary & Background & Objectives]()
 2. [Dataset Description]()
-3. [Bước Phân Tích Trước khi đi vào Data Visualization]()
-4. [Data Processing & Metric Definations (Dax)]()
-5. [Key Insights & Visualization]()
-6. [Recommendations]()
+3. [Data Processing & Metric Definations (Dax)]()
+4. [Key Insights & Visualization]()
+5. [Recommendations]()
 # 📌Background & Objective
+## Executive Summary:
+- This project provides an exploratory dashboard of National Rail's data to inform Manager with data-driven insights to:
+  - Understand current business performance
+  - Enhance service efficiency
+  - Optimize scheduling
+  - Improve customer satisfaction
+
 ## Background:
-Trong giai đoạn 12/2023 - 04/2024 , một doanh nghiệp cung cấp dịch vụ kinh doanh cho các nhà điều hành tàu chở Khách tại UK  đã ghi nhận hơn +30.000 giao dịch mua vé, thông qua 2 hình thức chính Online  và Station . Dữ liệu bao gồm các thông tin về giá vé, tuyến đường, thời gian di chuyển, loại vé,… của từng chuyến tàu.
+- During `12/2023` - `04/2024`, a company provdes business services to passenger train operators in UK recorded +30.000 ticket transactions through two main purchase option: Online and Station.
 
-## Objective:
-What is this project about ?
-Hiện tại, tôi với vai trò là một Bi Developer được Manager của National Rail yêu cầu xây dựng một bảng “Exploratory Dashboard” nhằm trả lời 4 yêu cầu sau:
-
+## Challenge Objective:
+1. Analyze revenue from different ticket types & classes
+2. Determine peak travel times
+3. Identify the most popular routes
+4. Diagnose on-time performance and contributing factors
 
 🕵🏼‍♂️Who is this project for ?
 - Manager of National Rail Service
 - Operation Team
 
-❓Business questions ?
-
 # 📂Dataset Description
 ## 📌Data Source:
-- Source: Mavenanlytics
-- Size
+- Source:
+    - [Kaggle](https://www.kaggle.com/datasets/motsimaslam/national-rail-uk-train-ticket-data)
+    - [Maven Anlytics](https://mavenanalytics.io/challenges/maven-rail-challenge)
+- Size: The **Ticket** table contains **31.653** records with **18** fields
 - Format: CSV
 
 ## 📊Data Structure & Relationships
 1️⃣Table Used
+- x
 2️⃣Data Relationships
-
-# Bước Phân Tích Trước khi đi vào Data Visualization
-- Làm trên Power Point xong đăng ảnh theo từng demand
-Demand 1 answering by Page 1 in PowerBi
+<img width="1352" height="664" alt="image" src="https://github.com/user-attachments/assets/fb70e694-d34d-43a1-a83e-484234f8a6ca" />
 
 
 # Data Processing by Python & DAX
-1. Using Python
+1. Using [Python](https://github.com/HuynhTanPhatT/UK-National-Railway-Ticket-Analysis/tree/main/Python%3A%20Data%20Cleaning) to:
+<table width="100%">  
+  - `Data Cleaning`: check data quality, handle null values, covert data types, detect anomalies and recreate columns and update values.
+</table>
 
-2. DAX Calculations & Formulas
+
+2. Using [Power BI]() to:
+   - 
+   - DAX Calculations & Formulas
 
 # Key Insights & Visualizations
 ## I. Railway Train Ticket | Overview
-<img width="1304" height="732" alt="image" src="https://github.com/user-attachments/assets/81609e60-b06a-458f-a126-5fc74bb524ca" />
+<img width="1293" height="724" alt="image" src="https://github.com/user-attachments/assets/cdafd18c-5cfc-4853-9622-7e50f6a08019" />
+
 
 
 ## II. Railway Train Ticket | Passenger Analysis: Peak Travel Times
-<img width="1300" height="728" alt="image" src="https://github.com/user-attachments/assets/b768ea3c-db40-4755-a363-73268f47e0ff" />
+<img width="1297" height="721" alt="image" src="https://github.com/user-attachments/assets/c062c446-f25c-4c42-b130-fe6974850517" />
 
 
 
-# Recommendations
+
+# 💡Recommendations
 
