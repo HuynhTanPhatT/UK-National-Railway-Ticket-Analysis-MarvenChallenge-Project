@@ -49,15 +49,8 @@
 # Data Processing by Python & DAX
 <div style="margin-left:10px">
 
-1. Using <a href="https://github.com/HuynhTanPhatT/UK-National-Railway-Ticket-Analysis/tree/main/Python%3A%20Data%20Cleaning">Python</a> to:
-
-<div style="border-left: 3px solid #8a8a8a; padding-left: 15px;">
-<strong>Data Cleaning</strong>: check data quality, handle null values, convert data types, detect anomalies, recreate columns and update values.
-</div>
-
-</div>
-
-
+1. Using [Python](https://github.com/HuynhTanPhatT/UK-National-Railway-Ticket-Analysis/tree/main/Python%3A%20Data%20Cleaning) to:
+> - Data Cleaning</strong>: check data quality, handle null values, convert data types, detect anomalies, recreate columns and update values.
 
 
 2. Using [Power BI]() to:
