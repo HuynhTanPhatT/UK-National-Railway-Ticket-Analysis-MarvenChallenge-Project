@@ -60,7 +60,7 @@
 
 # 📊Key Insights & Visualizations
 ## I. Railway Train Ticket | Overview
-<img width="1297" height="719" alt="image" src="https://github.com/user-attachments/assets/054a7554-c65a-4abb-be9c-693356ce326c" />
+<img width="1301" height="730" alt="image" src="https://github.com/user-attachments/assets/054a7554-c65a-4abb-be9c-693356ce326c" />
 
 ## 📌Key Findings:
 1. **Ticket Sales & Revenue Overview**:
