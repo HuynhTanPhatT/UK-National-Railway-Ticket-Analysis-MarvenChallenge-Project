@@ -52,9 +52,101 @@
 
 1. Using [Python](https://github.com/HuynhTanPhatT/UK-National-Railway-Ticket-Analysis/tree/main/Python%3A%20Data%20Cleaning) to:
 > - **Data Cleaning**: check data quality, handle null values, convert data types, detect anomalies, recreate columns and update values.
-2. Using [PowerBi]()to:
-   - 
-   - DAX Calculations & Formulas
+2. Using Power Bi to:
+> - ETL
+> - DAX Calculations & Formulas
+
+- `Employ some several DAX formulas to calculate Key Performance Indicators (KPIs)`:
+<details>
+  <summary>Click to view examples of DAX formulas</summary>
+  <br>
+
+- **Ticket Sales**:
+```dax
+1_ticket_sales = COUNT(FactTable[transaction_id])
+
+1_Avg_TicketSales = AVERAGEX(VALUES(FactTable[departure_time]),CALCULATE(COUNTROWS(FactTable)))
+
+1_cancelled_ticket_sales = CALCULATE(
+    COUNT(FactTable[transaction_id]),
+    FILTER(FactTable,FactTable[journey_status] = "Cancelled"))
+
+1_refunded_ticket_sales = CALCULATE(
+    COUNTROWS(FactTable),
+    FILTER(FactTable,FactTable[refund_requested] = "Yes"))
+
+2_average_price_per_ticket (APT) = 
+DIVIDE([2_gross_revenue],[1_ticket_sales])
+```
+
+- **Revenue**:
+```dax
+2_gross_revenue = sum(FactTable[ticket_price])
+
+2_net_revenue = //ticket_sold * price (actual earned)
+CALCULATE(
+    SUMX(FactTable,FactTable[ticket_price]),
+    FactTable[refund_requested] = "No")
+
+2_refund_revenue = CALCULATE(
+    SUM(FactTable[ticket_price]),
+    FILTER(FactTable,FactTable[refund_requested] = "Yes"))
+```
+</details>
+
+- `Employee some several DAX Formulas to calculate Customer Measures`:
+<details>
+    <summary>Click to view examples of DAX formulas</summary>
+    <br>
+
+- **Total Daily Train Trips**: Đếm tất cả các chuyến trong dataset, có bao nhiêu chuyến đến đúng giờ | trễ | hủy 
+```dax
+3_daily_train_trips = 
+VAR total_train_trips = 
+    SUMMARIZECOLUMNS(
+        DimDate[Date],
+        DimStation[route],
+        "Trips", DISTINCTCOUNT(FactTable[departure_time])
+    )
+RETURN
+SUMX(total_train_trips, [Trips])
+```
+
+- **On-Time Train Trips**: Đếm tất cả chuyến tàu đến đúng giờ dự kiến (ability of a train to depart and arrive at their scheduled times
+)
+```dax
+3_on-time train trips = 
+VAR on_time_train_trips =
+    SUMMARIZECOLUMNS(
+        DimDate[Date],
+        DimStation[route],
+        FILTER(FactTable,FactTable[journey_status] = "On Time"),
+        "Trips", DISTINCTCOUNT(FactTable[departure_time]))
+RETURN
+SUMX(on_time_train_trips, [Trips])
+```
+
+- **Delayed Train Trips**
+```dax
+3_delayed train trips = 
+VAR delayed_train_trips =
+    SUMMARIZECOLUMNS(
+        DimDate[Date],
+        DimStation[route],
+        FILTER(FactTable,FactTable[journey_status] = "Delayed"),
+        "Trips", DISTINCTCOUNT(FactTable[departure_time]))
+RETURN
+SUMX(delayed_train_trips, [Trips])
+```
+
+- **On-Time Performance (OTP): The percentage of recorded station stops where the train arrived less than one minute later than its advertised time.
+```dax
+4_on-time performance = (Number of Trips On Time / Total Number of Trips arrived Train Stops) x 100
+DIVIDE( -- On-Time + Delayed  không thêm Cancelled, bởi vì chuyến tàu bị hủy không đi tới "train stops"
+    [3_on-time train trips],
+    [3_on-time train trips] + [3_delayed train trips])
+```
+</details>
 
 
 
