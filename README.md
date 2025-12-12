@@ -56,7 +56,7 @@
 > - ETL
 > - DAX Calculations & Formulas
 
-- `Employ some several DAX formulas to calculate Key Performance Indicators (KPIs)`:
+- `🔶Employ some several DAX formulas to calculate Key Performance Indicators (KPIs)`:
 <details>
   <summary>Click to view examples of DAX formulas</summary>
   <br>
@@ -94,7 +94,7 @@ CALCULATE(
 ```
 </details>
 
-- `Employee some several DAX Formulas to calculate Customer Measures`:
+- `🔶Employee some several DAX Formulas to calculate Customer Measures`:
 <details>
     <summary>Click to view examples of DAX formulas</summary>
     <br>
