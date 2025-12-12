@@ -64,22 +64,22 @@
 
 ## 📌Key Findings:
 1. **Ticket Sales & Revenue Overview**
-    - From 12/2023 -> 05/2024, the company sold **⇈31.00K** tickets, bringing in ~**742K** USD in **gross revenue** with an average ticket price of **23.44 USD.
+    - From 12/2023 -> 05/2024, the company sold **⇈31.00K** tickets, bringing in ~**742K** USD in **gross revenue** with an average ticket price of **23.44** USD.
     - However, due to operational issues (weather, technical issues,etc..), **1.12K** tickets were refunded, leading to a revenue loss of **38.70K**.
 
-=> `The revenue loss mainly from operational issues by improving them could increase **net revenue**, while enhancing the customer experience.`
+    => `The revenue loss mainly from operational issues by improving them could increase **net revenue**, while enhancing the customer experience.`
 
 2. **Ticket Purchases**
-- Online purchases account for **59.32%** of all tickets (**18.11K**), mainly because of `lower average ticket price` compared to Station purchases (**$20.67** vs. **$27.35**)
-- Although, Online sold **5.3K** more tickets than Station, the total revenue gap is small (**374.54K** vs. **328.68K**)
+    - Online purchases account for **59.32%** of all tickets (**18.11K**), mainly because of `lower average ticket price` compared to Station purchases (**$20.67** vs. **$27.35**)
+    - Although, Online sold **5.3K** more tickets than Station, the total revenue gap is small (**374.54K** vs. **328.68K**)
 
 3. **Passengers prefer low-priced tickets**
-- Standard class tickets make up **90%** of total sales (**27.59K** tickets at $20.72) across both purchase type, bringing about ~**560K (~80%)** in revenue -- with Advance tickets being the most common type (**55.27%**) within this class.
+    - Standard class tickets make up **90%** of total sales (**27.59K** tickets at $20.72) across both purchase type, bringing about ~**560K (~80%)** in revenue -- with Advance tickets being the most common type (**55.27%**) within this class.
 
-=> `The UK ticket market prefers low-cost purchase options such as Standard (Advance)`
+    => `The UK ticket market prefers low-cost purchase options such as Standard (Advance)`
 
 4. **Routes**
-- The top 5 highest-selling routs are around areas: **Manchester-London-Birmingham**.
+    - The top 5 highest-selling routs are around areas: **Manchester-London-Birmingham**.
 
 
 ## II. Railway Train Ticket | Passenger Analysis: Peak Travel Times
