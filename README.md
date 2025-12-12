@@ -58,7 +58,7 @@
 
 
 
-# Key Insights & Visualizations
+# 📊Key Insights & Visualizations
 ## I. Railway Train Ticket | Overview
 <img width="1297" height="719" alt="image" src="https://github.com/user-attachments/assets/054a7554-c65a-4abb-be9c-693356ce326c" />
 
@@ -67,7 +67,7 @@
     - From 12/2023 -> 05/2024, the company sold **⇈31.00K** tickets, bringing in ~**742K** USD in **gross revenue** with an average ticket price of **23.44** USD.
     - However, due to operational issues (weather, technical issues,etc..), **1.12K** tickets were refunded, leading to a revenue loss of **38.70K**.
 
-    => `The revenue loss mainly from operational issues by improving them could increase **net revenue**, while enhancing the customer experience.`
+    => **`The revenue loss mainly from operational issues by improving them could increase net revenue, while enhancing the customer experience.`**
 
 2. **Ticket Purchases**
     - Online purchases account for **59.32%** of all tickets (**18.11K**), mainly because of `lower average ticket price` compared to Station purchases (**$20.67** vs. **$27.35**)
@@ -76,7 +76,7 @@
 3. **Passengers prefer low-priced tickets**
     - Standard class tickets make up **90%** of total sales (**27.59K** tickets at $20.72) across both purchase type, bringing about ~**560K (~80%)** in revenue -- with Advance tickets being the most common type (**55.27%**) within this class.
 
-    => `The UK ticket market prefers low-cost purchase options such as Standard (Advance)`
+    => **`The UK ticket market prefers low-cost purchase options such as Standard (Advance)`**
 
 4. **Routes**
     - The top 5 highest-selling routs are around areas: **Manchester-London-Birmingham**.
