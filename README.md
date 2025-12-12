@@ -84,6 +84,9 @@
 
 ## II. Railway Train Ticket | Passenger Analysis: Peak Travel Times
 <img width="1290" height="725" alt="image" src="https://github.com/user-attachments/assets/0c546423-b09f-49a6-83a6-61bad23a4212" />
+
+## 📌Key Findings:
+
 1. **Passenger Demand across the Week**:
     - Passenger demand is mainly concentrated on weekdays (Business days), higher than weekends, with 7K passengers.
     - Howver, the different between Peak Hours and Off-Peak Hours on both Business days and Weekends is not significant (10.43K vs. 11.43K) and (4.19K vs. 4.48K).
