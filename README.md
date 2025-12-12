@@ -65,8 +65,6 @@
 ```dax
 1_ticket_sales = COUNT(FactTable[transaction_id])
 
-1_Avg_TicketSales = AVERAGEX(VALUES(FactTable[departure_time]),CALCULATE(COUNTROWS(FactTable)))
-
 1_cancelled_ticket_sales = CALCULATE(
     COUNT(FactTable[transaction_id]),
     FILTER(FactTable,FactTable[journey_status] = "Cancelled"))
