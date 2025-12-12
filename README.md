@@ -18,13 +18,13 @@
   - Optimize scheduling
   - Improve customer satisfaction
 
-## Background:
-- During `12/2023` - `04/2024`, a company provdes business services to passenger train operators in UK recorded +30.000 ticket transactions through two main purchase option: Online and Station.
+## BackGround:
+- During `12/2023` - `04/2024`, a company provides business services to passenger train operators in UK recorded **+30.000** ticket transactions through two main purchases: `Online` and `Station`.
 
-## Challenge Objective:
+## Challenge Objectives:
 1. Analyze revenue from different ticket types & classes
-2. Determine peak travel times
-3. Identify the most popular routes
+2. Identify the most popular routes
+3. Determine peak travel times
 4. Diagnose on-time performance and contributing factors
 
 🕵🏼‍♂️Who is this project for ?
@@ -52,9 +52,7 @@
 
 1. Using [Python](https://github.com/HuynhTanPhatT/UK-National-Railway-Ticket-Analysis/tree/main/Python%3A%20Data%20Cleaning) to:
 > - **Data Cleaning**: check data quality, handle null values, convert data types, detect anomalies, recreate columns and update values.
-
-
-2. Using [Power BI]() to:
+2. Using [PowerBi]()to:
    - 
    - DAX Calculations & Formulas
 
@@ -62,31 +60,31 @@
 
 # Key Insights & Visualizations
 ## I. Railway Train Ticket | Overview
-<img width="1293" height="724" alt="image" src="https://github.com/user-attachments/assets/cdafd18c-5cfc-4853-9622-7e50f6a08019" />
+<img width="1297" height="719" alt="image" src="https://github.com/user-attachments/assets/054a7554-c65a-4abb-be9c-693356ce326c" />
 
 ##📌Key Findings:
 1. **Ticket Sales & Revenue Overview**
-- From 12/2023 -> 05/2024, the company sold **⇈31.00K** tickets, bringing in ~**742K** USD in **gross revenue** with an average ticket price of **23.44 USD. However, due to operational issues (weather, technical issues,etc..), 2.43K tickets were refunded, leading to a revenue loss of **71.65K**.
+  - From 12/2023 -> 05/2024, the company sold **⇈31.00K** tickets, bringing in ~**742K** USD in **gross revenue** with an average ticket price of **23.44 USD.
+  - However, due to operational issues (weather, technical issues,etc..), **1.12K** tickets were refunded, leading to a revenue loss of **38.70K**.
 
-=> The revenue loss mainly from operational issues by improving them could increase **net revenue**, while enhancing the customer experience.
+=> `The revenue loss mainly from operational issues by improving them could increase **net revenue**, while enhancing the customer experience.`
 
-2. **Online Ticket purchases increase significantly, but Revenue remain as Station purchase**
-- Online purchases account for **59.04%** of all tickets (**17.26K**), mainly because of lower average ticket price compared to Station purchases (**$20.67** USD vs. **$27.35** USD)
-- Although, Online sold **5.3K** more tickets than Station, the total revenue gap is small (**359.06K** vs. **311.25K**)
+2. **Ticket Purchases**
+- Online purchases account for **59.32%** of all tickets (**18.11K**), mainly because of `lower average ticket price` compared to Station purchases (**$20.67** vs. **$27.35**)
+- Although, Online sold **5.3K** more tickets than Station, the total revenue gap is small (**374.54K** vs. **328.68K**)
 
-3. **Passengers'need prefer low-price ticket**
-- Standard class tickets make up 90% of total sales (**26.41K** tickets at $20.72) across both purchase type, bringing about ~**534.39K (79.72%)** in revenue -- with Advance tickets being the most common type within this class.
+3. **Passengers prefer low-priced tickets**
+- Standard class tickets make up **90%** of total sales (**27.59K** tickets at $20.72) across both purchase type, bringing about ~**560K (~80%)** in revenue -- with Advance tickets being the most common type (**55.27%**) within this class.
 
-=> The UK ticket market prefers low-cost purchase options such as Standard (Advance)
-
-⇒ Doanh thu hiện tại vẫn không chênh lệch đáng kể, nhưng về dài  thì First-Class và loại vé Anytime sẽ bị ảnh hưởng bởi nhu cầu này.
+=> `The UK ticket market prefers low-cost purchase options such as Standard (Advance)`
 
 4. **Routes**
 - The top 5 highest-selling routs are around areas: **Manchester-London-Birmingham**.
 
 
 ## II. Railway Train Ticket | Passenger Analysis: Peak Travel Times
-<img width="1297" height="721" alt="image" src="https://github.com/user-attachments/assets/c062c446-f25c-4c42-b130-fe6974850517" />
+<img width="1290" height="725" alt="image" src="https://github.com/user-attachments/assets/0c546423-b09f-49a6-83a6-61bad23a4212" />
+
 
 
 
